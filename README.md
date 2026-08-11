@@ -1,17 +1,19 @@
-# Designing a Scalable Cloud-Based File Storage System
+# S3-Based File Upload/Download Web Application
 
-A scalable cloud-based file storage system built using **Python, Flask, Amazon S3, and Boto3**.
+A cloud-based file upload and download application built using **HTML, CSS, JavaScript, Flask, Boto3, and Amazon S3**.
 
 ##  AWS Services
 - Amazon S3
 - Amazon EC2
-- AWS IAM
+- IAM
 - Boto3
 
-## 📄 Documentation
+##  Application Flow
 
-Detailed project documentation and implementation details are available in this repository.
+User → Frontend → Flask Backend → Boto3 → Amazon S3
 
-##  Author
+The Flask backend generates secure upload URLs, while Amazon S3 handles file storage.
+
+##Author
 
 **Pavni Gupta**
